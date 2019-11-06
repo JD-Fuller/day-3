@@ -1,7 +1,7 @@
 body {
   display: flex;
   min-height: 100vh;
-  background-color: cornflowerblue;
+  background-color: black;
   margin: 0;
   justify-content: center;
 }
@@ -9,7 +9,7 @@ body {
 .stoplight {
   display: flex;
   flex-direction: column;
-align-content: center;
+align-items: center;
 }
 
 .post {
@@ -26,13 +26,38 @@ align-content: center;
   height: 10vh;
   width: 10vh;
 }
+
+
 .red {
-  background-color: red;
+  background-color: rgba(114, 66, 66, 0.753);
 }
+
+.red:hover {
+  background-color: rgb(247, 65, 65);
+  box-shadow: 0 0 8px rgb(255, 0, 0);
+}
+
 .yellow {
-  background-color: yellow;
+  background-color: rgba(83, 83, 50, 0.76);
   margin: 1em 0;
+  
+}
+
+.yellow:hover {
+  background-color: yellow;
+  box-shadow: 0 0 8px yellow;
 }
 .green {
+  background-color: rgba(66, 85, 66, 0.877);
+}
+
+.green:hover {
   background-color: green;
+  box-shadow: 0 0 8px green;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
 }
