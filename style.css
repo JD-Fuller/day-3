@@ -1,3 +1,11 @@
-main {
+div {
+  background-color: black;
+}
+
+.topbox {
+  background-color: black;
+}
+
+.stopbox {
   background-color: black;
 }
